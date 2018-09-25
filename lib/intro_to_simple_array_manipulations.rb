@@ -42,7 +42,8 @@ end
 def using_flatten()
 end
 
-def using_delete()
+def using_delete(instructors)
+  instructors.delete(Steven)
 end
 
 def using_delete_at(famous_robots)
