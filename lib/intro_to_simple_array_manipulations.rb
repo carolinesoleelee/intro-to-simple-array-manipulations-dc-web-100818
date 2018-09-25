@@ -1,0 +1,49 @@
+def using_push(countries_in_western_africa, next_country)
+  next_country = "Niger"
+  countries_in_western_africa.push(next_country)
+end
+
+def using_unshift(neighborhoods_in_northwest_brooklyn, new_neighborhood)
+  new_neighborhood = "Brooklyn Heights"
+  neighborhoods_in_northwest_brooklyn.unshift(new_neighborhood)
+end
+
+def using_pop(great_hits_of_the_nineties)
+  great_hits_of_the_nineties.pop
+end
+
+def pop_with_args(chars_in_game_of_thrones)
+  chars_in_game_of_thrones.pop
+  chars_in_game_of_thrones.pop
+  return ["Stable Boy", "Sandor Clegane"]
+end
+
+def using_shift(my_favorite_cities)
+  my_favorite_cities.shift
+end
+
+def shift_with_args(ice_cream_brands)
+  ice_cream_brands.shift
+  ice_cream_brands.shift
+  return ["Blue Bell Creameries", "Ben & Jerry's"]
+end
+
+def using_concat(my_favorite_things)
+  more_favs = ["mario kart", "flatiron school"]
+  [more_favs] + [my_favorite_things]
+end
+
+def insert()
+end
+
+def using_uniq()
+end
+
+def using_flatten()
+end
+
+def using_delete()
+end
+
+def using_delete_at()
+end
