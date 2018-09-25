@@ -34,7 +34,7 @@ def using_concat(my_favorite_things)
 end
 
 def insert(list_of_esoteric_programming_languages, another_esoteric_language)
-  list_of_esoteric_programming_languages([4],"Malbolge")
+  list_of_esoteric_programming_languages(4,another_esoteric_language)
 end
 
 def using_uniq(captain_planet_and_the_planeteers)
