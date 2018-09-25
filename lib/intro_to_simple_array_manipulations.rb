@@ -45,5 +45,6 @@ end
 def using_delete()
 end
 
-def using_delete_at()
+def using_delete_at(famous_robots)
+  famous_robots.pop
 end
