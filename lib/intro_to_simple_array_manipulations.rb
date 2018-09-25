@@ -34,7 +34,7 @@ def using_concat(my_favorite_things)
 end
 
 def insert(array, new_element)
-  list_of_esoteric_programming_languages.insert(4, new_element)
+  array(4, new_element)
 end
 
 def using_uniq(captain_planet_and_the_planeteers)
