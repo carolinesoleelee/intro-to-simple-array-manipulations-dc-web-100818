@@ -42,7 +42,7 @@ end
 def using_flatten()
 end
 
-def using_delete(instructors, no_offense_steven)
+def using_delete(instructors, )
   instructors.delete(Steven)
 end
 
